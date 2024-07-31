@@ -1,0 +1,24 @@
+@import "_mixins";
+@import "_cart";
+@import "_pdp";
+@import "_product";
+@import "_client_changes";
+@import "_extends";
+@import "_recs";
+@import "_plp";
+@import "_deal";
+
+.inc_bundles {
+  #estore_productpage_template_container {
+    overflow: visible;
+  }
+}
+
+//Promo modal
+.inc_promo_popup {
+  display: none;
+}
+
+.inc_product_modal_block {
+  display: none;
+}
